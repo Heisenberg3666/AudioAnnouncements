@@ -8,5 +8,6 @@ namespace AudioAnnouncements
 
         public string MtfAudioPath { get; set; }
         public string CiAudioPath { get; set; }
+        public float AudioDelay { get; set; } = 5f;
     }
 }
